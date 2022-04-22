@@ -484,7 +484,7 @@ export const certificates = [
         name: 'CS50x: Introduction to Computer Science',
         group: 'Harvard',
         issuer: 'HarvardX (through edX - online learning platform)',
-        image: '/images/cert/cs50x.jpg',
+        image: '/images/cert/CS50x.jpg',
         link: 'https://courses.edx.org/certificates/11697543d14341b5a97589a8dcddabea',
         tech: 'C, HTML, CSS, JavaScript, Python, SQL',
         description: `
@@ -497,7 +497,7 @@ To complete this course and receive a certificate, students must submit and pass
         name: 'CS50w: Web Programming with Python and JavaScript',
         group: 'Harvard',
         issuer: 'HarvardX (through edX - online learning platform)',
-        image: '/images/cert/cs50w.jpg',
+        image: '/images/cert/CS50w.jpg',
         link: 'https://courses.edx.org/certificates/4abaca623859444780b9da84b3e2c95b',
         tech: 'HTML, CSS, JavaScript, Python, SQL, Git, Django, React, Bootstrap, APIs',
         description: `

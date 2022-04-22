@@ -5,7 +5,7 @@ export default function CertificatesContainer({certificate, harvard}) {
         <div className="flex flex-col md:flex-row items-center justify-around">
             <div className="md:w-[40%] mx-auto px-2">
                 <a className='cursor-default' href={certificate.link} target='_blank'>
-                    <img loading={harvard ? 'eager' : 'lazy'} className='border-4 border-blue-900 object-contain rounded-md' src={certificate.image} alt={certificate.name + ' Certificate'} />
+                    <img loading='lazy' className='border-4 border-blue-900 object-contain rounded-md' src={certificate.image} alt={certificate.name + ' Certificate'} />
                 </a>
                 <a href={certificate.link} target='_blank' title='View Certificate in New Tab'>
                     <button className='flex items-center justify-center rounded-md text-sm md:text-base lg:text-lg gap-2 transition ease-linear hover:text-blue-700 hover:bg-white border border-white w-full py-2 my-2'><ExternalLinkIcon className='w-5 h-5' /> <span>View Certificate</span></button>
