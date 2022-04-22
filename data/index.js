@@ -5,8 +5,8 @@ export const projects = [
         name: 'Portfolio',
         tech: 'Next.js',
         image: '/images/next/portfolio.jpg',
-        youtube: '#',
-        github: '#',
+        youtube: 'https://youtu.be/vvkaKAyBFT0',
+        github: 'https://github.com/radanjovic/next-portfolio',
         description: `
 Portfolio is a portfolio website project, the one you're reading this on, and it's made to showcase all the skills I've gathered learning programming and web development. On this site, users can browse and read my resume, view all the certificates I've earned in this field, browse all the projects I've made so far (also see demo videos and source code of the projects), and see my contact information.
 
