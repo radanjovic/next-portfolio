@@ -22,7 +22,7 @@ export default function CertificatesPage({certificates}) {
         <p className='main-text text-base md:text-lg lg:text-xl text-center md:text-justify px-1 md:px-2 lg:px-3 py-4 lg:py-5'>On my quest to become a successful programmer/web developer, I've taken multiple online courses in the field. Most of them include a certificate at the end, awarded to students able to complete them. Below is the collection of certificates that I've earned in the field so far, along with course descriptions and quick overviews of the technologies taught in them.</p>
 
         <CertificatesSection id='harvard-certificates' title='Harvard' description='Harvard University, one of the most reputable institutions in the world, offers a broad variety of their classes online, via their online learning platform - edX.'>
-            {harvard.map(i => <CertificatesContainer key={i.name} certificate={i} />)}
+            {harvard.map(i => <CertificatesContainer key={i.name} certificate={i} harvard />)}
         </CertificatesSection>
 
         <CertificatesSection id='free-code-camp-certificates' title='Free Code Camp' description='Free Code Camp is a non-profit organization offering a bunch of online courses focused on programming to students, for free.'>
