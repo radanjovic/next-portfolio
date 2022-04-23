@@ -30,6 +30,6 @@ export default function ProjectCard({project, mini}) {
                 </div>
             </div>
         </div>
-       <Link href={`/projects/${project.slug}`}><p className="main-text font-bold roboto hover:cursor-pointer hover:text-white">{project.name}</p></Link>
+       <Link href={`/projects/${project.slug}`}><p className="main-text font-bold roboto hover:cursor-pointer hover:text-white text-lg">{project.name}</p></Link>
     </div>
 }

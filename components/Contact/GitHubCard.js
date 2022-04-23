@@ -27,7 +27,7 @@ export default function GitHubCard() {
                 <GitHubProjectHolder title='react' description='Project made with React.' tech='JavaScript' bg='bg-yellow-600' />
             </div>
             </div>
-            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border my-1 lg:m-2 md:mx-1 p-2 md:py-3 lg:py-4 text-xs sm:text-sm md:text-base lg:text-xl transition ease-linear hover:text-[#0D1117] hover:bg-white' href='https://github.com/radanjovic' target='_blank' title="Open Radan's GitHub Profile in New Tab">
+            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border my-1 lg:m-2 md:mx-1 p-2 md:py-3 lg:py-4 text-sm sm:text-base md:text-lg lg:text-xl transition ease-linear hover:text-[#0D1117] hover:bg-white' href='https://github.com/radanjovic' target='_blank' title="Open Radan's GitHub Profile in New Tab">
             <ExternalLinkIcon className='w-4 sm:w-5 md:w-6 lg:w-7' />
             View GitHub Profile</a>
         </div>

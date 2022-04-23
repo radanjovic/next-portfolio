@@ -37,7 +37,7 @@ export default function TwitterCard() {
                     <span className='text-gray-500'><span className='text-white'>XX</span> Followers</span>
                 </p>
             </div>
-            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border mx-2 md:mx-3 lg:mx-4 p-2 md:py-3 lg:py-4 text-xs sm:text-sm md:text-base lg:text-xl transition ease-linear hover:text-[#243447] hover:bg-white' href='https://twitter.com/radanjovic' target='_blank' title="Open Radan's Twitter Profile in New Tab">
+            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border mx-2 md:mx-3 lg:mx-4 p-2 md:py-3 lg:py-4 text-sm sm:text-base md:text-lg lg:text-xl transition ease-linear hover:text-[#243447] hover:bg-white' href='https://twitter.com/radanjovic' target='_blank' title="Open Radan's Twitter Profile in New Tab">
             <ExternalLinkIcon className='w-4 sm:w-5 md:w-6 lg:w-7' />
             View Twitter Profile</a>
         </div>

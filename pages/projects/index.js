@@ -57,21 +57,21 @@ export default function ProjectsPage({projects, miniProjects}) {
         <p className='main-text text-sm md:text-base lg:text-lg text-center md:text-justify px-1 md:px-2 lg:px-3 py-2 lg:py-3'>&#x1F6C8; You can scroll horizontally to see all the projects in a particular group. To view project details (with details of all the technologies used in making it), along with links to a demo video (where available) and source code, click on the project screenshot or project name.</p>
         
         <section id='next-projects' className="my-12 lg:my-16">
-          <h2 className='text-center gradient-1 text-xl md:text-2xl lg:text-3xl font-bold my-4'>Next.js</h2>
+          <h2 className='text-center gradient-1 text-2xl lg:text-3xl font-bold my-4'>Next.js</h2>
             <Carousel infinite autoPlay={false} shouldResetAutoplay={false} keyBoardControl responsive={responsive} customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} >
                 {next.map(i => <ProjectCard key={i.slug} project={i} />)}
             </Carousel>
         </section>
         
         <section id='react-projects' className="my-12 lg:my-16">
-          <h2 className='text-center gradient-1 text-xl md:text-2xl lg:text-3xl font-bold my-4'>React</h2>
+          <h2 className='text-center gradient-1 text-2xl lg:text-3xl font-bold my-4'>React</h2>
           <Carousel infinite autoPlay={false} shouldResetAutoplay={false} keyBoardControl responsive={responsive} customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} >
             {react.map(i => <ProjectCard key={i.slug} project={i} />)}
           </Carousel>
         </section>
         
         <section id='django-projects' className="my-12 lg:my-16">
-          <h2 className='text-center gradient-1 text-xl md:text-2xl lg:text-3xl font-bold my-4'>Django</h2>
+          <h2 className='text-center gradient-1 text-2xl lg:text-3xl font-bold my-4'>Django</h2>
           <Carousel infinite autoPlay={false} shouldResetAutoplay={false} keyBoardControl responsive={responsive} customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} >
               {django.map(i => <ProjectCard key={i.slug} project={i} />)}
           </Carousel>
@@ -79,16 +79,16 @@ export default function ProjectsPage({projects, miniProjects}) {
         
         
         <section id='mini-projects' className="my-12 lg:my-16">
-          <h2 className='text-center gradient-1 text-xl md:text-2xl lg:text-3xl font-bold my-4'>Mini-Projects</h2>
+          <h2 className='text-center gradient-1 text-2xl lg:text-3xl font-bold my-4'>Mini-Projects</h2>
             <div id='javascript-projects'>
-              <h3 className='text-center gradient-1 text-lg md:text-xl lg:text-2xl my-2 lg:my-3'>JavaScript</h3>
+              <h3 className='text-center gradient-1 text-xl lg:text-2xl my-2 lg:my-3'>JavaScript</h3>
               <Carousel infinite autoPlay={false} shouldResetAutoplay={false} keyBoardControl responsive={responsive} customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} >
                   {javascript.map(i => <ProjectCard key={i.slug} project={i} mini />)}
               </Carousel>
             </div>
 
             <div id='python-projects'>
-              <h3 className='text-center gradient-1 text-lg md:text-xl lg:text-2xl my-2 lg:my-3'>Python</h3>
+              <h3 className='text-center gradient-1 text-xl lg:text-2xl my-2 lg:my-3'>Python</h3>
               <Carousel infinite autoPlay={false} shouldResetAutoplay={false} keyBoardControl responsive={responsive} customLeftArrow={customLeftArrow} customRightArrow={customRightArrow} >
                   {python.map(i => <ProjectCard key={i.slug} project={i} mini />)}
               </Carousel>

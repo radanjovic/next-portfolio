@@ -1,7 +1,7 @@
 
 
 export default function BasicInfo() {
-    return <section id='basic-info' className="flex flex-col md:flex-row items-center justify-around p-2 pb-4 my-2 md:my-4 w-full md:w-[90%] lg:w-[80%] mx-auto">
+    return <section id='basic-info' className="flex flex-col md:flex-row items-center justify-around p-2 pb-4 my-2 md:my-4 w-full md:w-[90%] lg:w-[80%] mx-auto text-white">
     <div className="w-full md:w-[45%] m-auto p-2">
         <img src='/images/contact/profile-pic3.jfif' alt='Picture of Radan Jovic' className="w-full h-full rounded-full brightness-75" />
     </div>

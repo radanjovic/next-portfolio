@@ -27,7 +27,7 @@ export default function LinkedInCard() {
                     <p className='rounded-full border py-1 px-2 md:py-2 md:px-3 lg:px-4 bg-gray-900'>More</p>
                 </div>
             </div>
-            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border mx-2 md:mx-3 lg:mx-4 p-2 md:py-3 lg:py-4 text-xs sm:text-sm md:text-base lg:text-xl transition ease-linear hover:text-gray-900 hover:bg-white' href='https://linkedin.com/in/jovicradan' target='_blank' title="Open Radan's LinkedIn Profile in New Tab">
+            <a className='flex font-mono items-center justify-center gap-1 md:gap-2 rounded-md cursor-pointer text-white font-semibold border mx-2 md:mx-3 lg:mx-4 p-2 md:py-3 lg:py-4 text-sm sm:text-base md:text-lg lg:text-xl transition ease-linear hover:text-gray-900 hover:bg-white' href='https://linkedin.com/in/jovicradan' target='_blank' title="Open Radan's LinkedIn Profile in New Tab">
             <ExternalLinkIcon className='w-4 sm:w-5 md:w-6 lg:w-7' />
             View LinkedIn Profile</a>
         </div>

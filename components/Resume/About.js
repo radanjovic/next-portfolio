@@ -1,12 +1,12 @@
 import Link from "next/link"
 
 export default function About() {
-    return <section id='about' className="p-2 pb-4 my-2 md:my-4 w-full md:w-[90%] lg:w-[80%] mx-auto border-b border-[#81afdd]">
+    return <section id='about' className="p-2 pb-4 my-2 md:my-4 w-full md:w-[90%] lg:w-[80%] mx-auto border-b border-[#81afdd] text-white">
     <h2 className='text-center gradient-1 text-xl md:text-2xl lg:text-3xl font-bold mb-2'>About</h2>
     <div className="text-lg md:text-xl lg:text-2xl p-2 md:p-3 lg:p-4">
         <p>Lawyer, by education, turned self-taught full-stack web developer proficient in technologies and frameworks like: Next.js, React, and Django, skilled with both relational and non-relational databases, looking for first real-world experience in the field.</p>
     </div>
-    <details className='details-bg rounded-md text-sm md:text-base lg:text-lg'>
+    <details className='details-bg rounded-md text-base md:text-lg lg:text-xl'>
         <summary className='details-bg cursor-pointer p-4 mt-2 rounded-md'>In a few more words...</summary>
         <div className='main-text px-2 md:px-4 lg:px-6 py-2 md:pb-3 lg:pb-4 space-y-2 md:space-y-3 lg:space-y-4'>
             <p>Hi, my name is Radan Jovic, I'm 27 years old, and I live in Bosnia and Herzegovina, a small messy country in the Balkans, in Europe. By education, I'm a lawyer, since back in 2017 I finished my 4-year Bachelor of Laws study. In 2019 I added the Master of Laws title to my name, too.  Even though I was the first in my class and one of the best students largely thanks to my love and appreciation for the law, somewhere along the way things changed and, soon enough, I found myself truly unhappy working in this field.</p>
