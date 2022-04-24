@@ -153,13 +153,6 @@ body {
   /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#021f3c",endColorstr="#02152f",GradientType=1); */
 }
 
-.arrow-btn {
-  background: linear-gradient(43deg, #4156c0 0%, #C850C0 100%);
-}
-.arrow-btn:hover {
-  filter: brightness(80%);
-}
-
 .home-page-links:hover {
   background: rgb(2,31,60);
   background: -moz-linear-gradient(90deg, rgb(5, 39, 73) 0%, rgb(3, 25, 56) 100%);
