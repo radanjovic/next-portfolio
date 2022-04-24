@@ -17,10 +17,10 @@ export default function ProjectContainer({project, mini}) {
 
 
         <div className="w-full mt-4 md:mt-2 p-2 main-text text-base md:text-lg lg:text-xl text-white">
-            <h2 className='flex flex-col mb-2 md:mb-2 text-lg md:text-xl lg:text-2xl'>
+            <h2 className='flex flex-col mb-2 md:mb-3 font-bold text-lg md:text-xl lg:text-2xl'>
                 {!mini ? <span className='text-white roboto'>Main Framework Used:</span> : 
                 <span className='text-white roboto'>Programming Language Used:</span>}
-                <span className='gradient-1 font-bold'>{project.tech === 'JS' ? 'JavaScript' : project.tech}</span>
+                <span className='gradient-1'>{project.tech === 'JS' ? 'JavaScript' : project.tech}</span>
             </h2>
 
             {!mini ? <p className='whitespace-pre-line'><span className='text-white roboto'>Project Description:</span> {project.description}</p> : 
