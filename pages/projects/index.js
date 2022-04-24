@@ -30,16 +30,16 @@ export default function ProjectsPage({projects, miniProjects}) {
       }
 
       const customLeftArrow = (
-        <div className=" w-fit bg-indigo-700 hover:bg-indigo-800 absolute left-0 text-center p-1 md:p-2 lg:p-3 cursor-pointer rounded-full">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className=" bg-indigo-700 hover:bg-indigo-800 absolute left-0 text-center p-1 md:p-2 lg:p-3 cursor-pointer rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-white w-fit" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
         </div>
       );
     
       const customRightArrow = (
-        <div className=" w-fit bg-indigo-700 hover:bg-indigo-800 absolute right-0 text-center p-1 md:p-2 lg:p-3 cursor-pointer rounded-full">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className=" bg-indigo-700 hover:bg-indigo-800 absolute right-0 text-center p-1 md:p-2 lg:p-3 cursor-pointer rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 text-white w-fit" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
         </div>
