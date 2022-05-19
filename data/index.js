@@ -92,6 +92,19 @@ This project uses Next.js for frontend and Chat Engine for backend and database.
         `
     },
     {
+        slug: 'react-admin-news',
+        name: 'AdminNews (MERN)',
+        tech: 'React',
+        image: '/images/react/demo-admin.png',
+        youtube: 'https://youtu.be/Z8Q_HGrLztQ',
+        github: 'https://github.com/radanjovic/react-admin-news',
+        description: `
+AdminNews is a demo full-stack MERN (REST API) project with full login functionality in which users can share their news (posts) with other users, change their basic info and passwords, and edit and delete their own posts. This app's design was based on AdobeXD design by NovaMedia. The main purpose of this project is to showcase full AUTH functionality and CRUD mongoDB operations. Login is done with JWT using access and refresh tokens. There are 3 different techiques showcased, for refreshing tokens: first with refresh tokens that expire, second with refresh tokens that are rotated every time they're used, and third with rotating tokens only after a specific period of time has passed, since token was issued, and before it has expired. Full project details are available in readme file on github...
+
+This project was made using React and create-react-app on the frontend (with SASS for styling) and Node.js and Express on the backend - for REST API. The app uses MongoDB (atlas) for DB.
+        `
+    },
+    {
         slug: 'react-landing-page-dark',
         name: 'Dark Landing Page',
         tech: 'React',
@@ -115,6 +128,19 @@ This project was made using React and create-react-app and uses CSS modules for 
 Responsive Landing Page is a simple responsive landing page made based on Figma design by AR Shakir. The purpose of this project is to get familiarized with Figma and the transformation of its design into code. The code also follows the BEM naming convention for CSS classes. Writing CSS like this in this project, I realized I didn't really like it that much, which is why I've used modules/tailwind in most of my other projects, my favorite types of CSS writing from React/Next projects. This landing page is fully responsive, as the name suggests.
 
 This project was made using React and create-react-app, and uses global CSS classes based on the BEM naming convention, for styling. It also features assets downloaded from mentioned Figma design. This project was made following a tutorial by JS Mastery.
+        `
+    },
+    {
+        slug: 'react-landing-page',
+        name: 'DMC Stuttgart Landing Page',
+        tech: 'React',
+        image: '/images/react/landing-page.jpg',
+        youtube: 'https://youtu.be/MUjAJEvfv-A',
+        github: 'https://github.com/radanjovic/react-landing-page',
+        description: `
+DMC Stuttgart Landing Page is a simple landing page made based on AdobeXD design by NovaMedia. The purpose of this project is to get familiarized with AdobeXD and the transformation of its design into code. The project was made for desktop, as the design was only for desktop, and it's best displayed at 1920x1080px screens, but some media queries were added to make this app somewhat responsive for all desktop screen sizes (1024px wide and up).
+
+This project was made using React and create-react-app, and uses SASS for styling. It also features assets downloaded from mentioned AdobeXD design.
         `
     },
     {
