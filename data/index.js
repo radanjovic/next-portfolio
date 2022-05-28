@@ -96,10 +96,10 @@ This project uses Next.js for frontend and Chat Engine for backend and database.
         name: 'AdminNews (MERN)',
         tech: 'React',
         image: '/images/react/demo-admin.png',
-        youtube: 'https://youtu.be/Z8Q_HGrLztQ',
-        github: 'https://github.com/radanjovic/react-admin-news',
+        youtube: 'https://youtu.be/19yvtNcZVSw',
+        github: 'https://github.com/radanjovic/react-admin-news-MERN',
         description: `
-AdminNews is a demo full-stack MERN (REST API) project with full login functionality in which users can share their news (posts) with other users, change their basic info and passwords, and edit and delete their own posts. This app's design was based on AdobeXD design by NovaMedia. The main purpose of this project is to showcase full AUTH functionality and CRUD mongoDB operations. Login is done with JWT using access and refresh tokens. There are 3 different techiques showcased, for refreshing tokens: first with refresh tokens that expire, second with refresh tokens that are rotated every time they're used, and third with rotating tokens only after a specific period of time has passed, since token was issued, and before it has expired. Full project details are available in readme file on github...
+AdminNews is a demo full-stack MERN (REST API) project with full login functionality in which users can share their news (posts) with other users, change their basic info and passwords, and edit and delete their own posts. Users also can add images (app has full image upload functionality) for their profile, and for their posts. This app's design was based on AdobeXD design by NovaMedia. The main purpose of this project is to showcase full AUTH functionality, CRUD mongoDB operations, and full image upload functionality. Login is done with JWT using access and refresh tokens. There are 3 different techiques showcased, for refreshing tokens: first with refresh tokens that expire, second with refresh tokens that are rotated every time they're used, and third with rotating tokens only after a specific period of time has passed, since token was issued, and before it has expired. Full project details are available in readme file on github...
 
 This project was made using React and create-react-app on the frontend (with SASS for styling) and Node.js and Express on the backend - for REST API. The app uses MongoDB (atlas) for DB.
         `
@@ -585,19 +585,6 @@ To complete this course and receive a certificate, students must submit and pass
         `
     },
     {
-        name: 'The Complete Web Development Bootcamp',
-        group: 'Udemy',
-        issuer: 'London App Brewery (through Udemy - online learning platform)',
-        image: '/images/cert/webdev.jpg',
-        link: 'https://www.udemy.com/certificate/UC-e78afea7-dcda-483d-8f3b-ef716e5a14ee/',
-        tech: 'HTML, CSS, Bootstrap, JavaScript, jQuery, Git, Node.js, Express.js, ejs, REST APIs, MongoDB, Mongoose, React',
-        description: `
-The Complete Web Development Bootcamp, taught by wonderful dr. Angela Yu from London App Brewery, is a course designed to be the only course one needs to learn full-stack web development, from scratch. In this course, students learn, from the ground up, about all the technologies that allow full-stack web development with JavaScript - mainly HTML, CSS, JavaScript, Node.js, and React. Additionally, this course teaches about database design with MongoDB and best practices for REST API architecture. On top of this, this course teaches about many other popular libraries used in full-stack development - mainly Boostrap, jQuery, and Express.js.
-
-To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
-        `
-    },
-    {
         name: 'React - The Complete Guide',
         group: 'Udemy',
         issuer: 'Academind (through Udemy - online learning platform)',
@@ -619,6 +606,32 @@ To complete this course and receive a certificate, students must watch all the l
         tech: 'Next.js, File-based Routing, Static Generation, Incremental Static Generation, Server-side Rendering, Next.js API implementation, NextAuth',
         description: `
 Next.js - The Complete Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular production framework for React -Next.js. This course teaches Next.js and its core features(file-based routing, static generation and SEO optimization, and full-stack API development) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
+
+To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
+        `
+    },
+    {
+        name: "MongoDB - The Complete Developer's Guide",
+        group: 'Udemy',
+        issuer: 'Academind (through Udemy - online learning platform)',
+        image: '/images/cert/mongodb.jpg',
+        link: 'https://www.udemy.com/certificate/UC-dfeabc23-a735-4007-b845-6b5f8eb8036d/',
+        tech: 'MongoDB, NoSQL, CRUD operations in MongoDB, Schemas and Relations, MongoDB Shell and Drivers, MongoDB Aggregation, MongoDB Auth, Security, and Performance, MongoDB Realm',
+        description: `
+MongoDB - The Complete Developer's Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular NoSQL database - MongoDB database. This course teaches MongoDB and its core features(create (insert), read(find), update and delete operations, working with shell and with drivers, schemas and relations, aggregation framework, optimizations and performance of MongoDB, auth and security, ...) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
+
+To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
+        `
+    },
+    {
+        name: 'The Complete Web Development Bootcamp',
+        group: 'Udemy',
+        issuer: 'London App Brewery (through Udemy - online learning platform)',
+        image: '/images/cert/webdev.jpg',
+        link: 'https://www.udemy.com/certificate/UC-e78afea7-dcda-483d-8f3b-ef716e5a14ee/',
+        tech: 'HTML, CSS, Bootstrap, JavaScript, jQuery, Git, Node.js, Express.js, ejs, REST APIs, MongoDB, Mongoose, React',
+        description: `
+The Complete Web Development Bootcamp, taught by wonderful dr. Angela Yu from London App Brewery, is a course designed to be the only course one needs to learn full-stack web development, from scratch. In this course, students learn, from the ground up, about all the technologies that allow full-stack web development with JavaScript - mainly HTML, CSS, JavaScript, Node.js, and React. Additionally, this course teaches about database design with MongoDB and best practices for REST API architecture. On top of this, this course teaches about many other popular libraries used in full-stack development - mainly Boostrap, jQuery, and Express.js.
 
 To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
         `

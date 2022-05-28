@@ -1,6 +1,6 @@
 import Head from "next/head";
 import BasicInfo from "../components/Resume/BasicInfo";
-import Download from "../components/Resume/Download";
+// import Download from "../components/Resume/Download";
 import About from "../components/Resume/About";
 import Skills from "../components/Resume/Skills";
 import Education from "../components/Resume/Education";
@@ -17,7 +17,7 @@ export default function ResumePage() {
         <h1 className='page-heading'>Resume</h1>
 
         <BasicInfo />
-        <Download />
+        {/* <Download /> */}
         <About />
         <Skills />
         <Education />
