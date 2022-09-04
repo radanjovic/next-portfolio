@@ -566,7 +566,7 @@ To complete this course and receive a certificate, students must submit and pass
         link: 'https://www.freecodecamp.org/certification/radanjovic/front-end-development-libraries',
         tech: 'Bootstrap, Sass, jQuery, React, Redux',
         description: `
-Front End Development Libraries course and Certification, offered by Free Code Camp, teaches students about the most popular and relevant front-end development libraries, like Bootstrap, Sass, jQuery, and React. This course teaches students to quickly style sites with Bootstrap, add logic to CSS styles and extend them with Sass, how to apply jQuery to make writing JavaScrip code easier, and how to create powerful and beautiful Single Page Applications (SPAs) with React and Redux. This course represents approximately 300 hours of coursework.
+Front End Development Libraries course and Certification, offered by Free Code Camp, teaches students about the most popular and relevant front-end development libraries, like Bootstrap, Sass, jQuery, and React. This course teaches students to quickly style sites with Bootstrap, add logic to CSS styles and extend them with Sass, how to apply jQuery to make writing JavaScript code easier, and how to create powerful and beautiful Single Page Applications (SPAs) with React and Redux. This course represents approximately 300 hours of coursework.
 
 To complete this course and receive a certificate, students must submit and pass a total of five projects, that showcase skills taught in the course. Tests are automatic. In order to learn during the course, students also work on (and should pass) dozens of tests in multiple different course sections.
         `
@@ -598,14 +598,27 @@ To complete this course and receive a certificate, students must watch all the l
         `
     },
     {
-        name: 'Next.js - The Complete Guide',
+        name: 'React Native - The Practical Guide',
         group: 'Udemy',
         issuer: 'Academind (through Udemy - online learning platform)',
-        image: '/images/cert/next.jpg',
-        link: 'https://www.udemy.com/certificate/UC-d0a446bd-e702-4527-8850-d3383559ede9/',
-        tech: 'Next.js, File-based Routing, Static Generation, Incremental Static Generation, Server-side Rendering, Next.js API implementation, NextAuth',
+        image: '/images/cert/react-native.jpg',
+        link: 'https://www.udemy.com/certificate/UC-4c9bf1ef-0b92-433d-b0dc-f6f44d96d6c4/',
+        tech: 'React Native, Functional React Native (with Hooks), React Navigation, styling React Native apps, Redux and Context, Authentication and Http Requests, Native Features (Camera, Location, SQLite) with React Native, Local and Push Notifications',
         description: `
-Next.js - The Complete Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular production framework for React -Next.js. This course teaches Next.js and its core features(file-based routing, static generation and SEO optimization, and full-stack API development) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
+React Native - The Practical Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the newest React Native core features and advanced concepts. This course teaches functional mobile development with React Native from the ground up - from setting up the environment and starting development, to using all the core React, and many Native features in React Native apps, through theory, a bunch of examples and demos, and many assignments and exercises.
+
+To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with mobile development in React Native.
+        `
+    },
+    {
+        name: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+        group: 'Udemy',
+        issuer: 'Academind (through Udemy - online learning platform)',
+        image: '/images/cert/node.jpg',
+        link: 'https://www.udemy.com/certificate/UC-62624c4a-8b92-4647-9013-4b6e9f44c85a/',
+        tech: 'NodeJS, Express.js, Server-side rendering templates with EJS and Express.js, MVC, Node and SQL/NoSQL databases, Sessions and Cookies, Authentication and Authorization, Sending emails, Validation, File upload and download, Pagination, Payments, REST APIs, Websockets and Socket.io, GraphQL, Testing and Deploying Node.js apps, Node.js and Typescript, Deno.js',
+        description: `
+NodeJS - The Complete Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on one of the most popular backend solutions today - Node.js and Javascript. This course teaches NodeJS and its core features (templating, working with databases and files, authentication and authorization, validation, using node as REST API and GraphQL backend, testing, ...) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
 
 To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
         `
@@ -618,7 +631,20 @@ To complete this course and receive a certificate, students must watch all the l
         link: 'https://www.udemy.com/certificate/UC-dfeabc23-a735-4007-b845-6b5f8eb8036d/',
         tech: 'MongoDB, NoSQL, CRUD operations in MongoDB, Schemas and Relations, MongoDB Shell and Drivers, MongoDB Aggregation, MongoDB Auth, Security, and Performance, MongoDB Realm',
         description: `
-MongoDB - The Complete Developer's Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular NoSQL database - MongoDB database. This course teaches MongoDB and its core features(create (insert), read(find), update and delete operations, working with shell and with drivers, schemas and relations, aggregation framework, optimizations and performance of MongoDB, auth and security, ...) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
+MongoDB - The Complete Developer's Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular NoSQL database - MongoDB database. This course teaches MongoDB and its core features (create (insert), read(find), update and delete operations, working with shell and with drivers, schemas and relations, aggregation framework, optimizations and performance of MongoDB, auth and security, indexes, ...) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
+
+To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
+        `
+    },
+    {
+        name: 'Next.js - The Complete Guide',
+        group: 'Udemy',
+        issuer: 'Academind (through Udemy - online learning platform)',
+        image: '/images/cert/next.jpg',
+        link: 'https://www.udemy.com/certificate/UC-d0a446bd-e702-4527-8850-d3383559ede9/',
+        tech: 'Next.js, File-based Routing, Static Generation, Incremental Static Generation, Server-side Rendering, Next.js API implementation, NextAuth',
+        description: `
+Next.js - The Complete Guide, taught by amazing Maximilian Schwarzmueller and his Academind, is a course on the most popular production framework for React -Next.js. This course teaches Next.js and its core features(file-based routing, static generation and SEO optimization, and full-stack API development) from the ground up, through theory, a bunch of examples and demos, and many assignments and exercises.
 
 To complete this course and receive a certificate, students must watch all the lectures in the course, pass automated tests created by instructors along the way, and, optionally, code along with the instructor, to familiarize themselves further with web development.
         `

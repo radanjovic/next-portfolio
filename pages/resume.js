@@ -5,7 +5,8 @@ import About from "../components/Resume/About";
 import Skills from "../components/Resume/Skills";
 import Education from "../components/Resume/Education";
 import PersonalQualities from '../components/Resume/PersonalQualities';
-import BackToTop from '../components/UI/BackToTop'
+import BackToTop from '../components/UI/BackToTop';
+import Experience from "../components/Resume/Experience";
 
 export default function ResumePage() {
     return <article id='resume-page' className="FADE">
@@ -20,6 +21,7 @@ export default function ResumePage() {
         {/* <Download /> */}
         <About />
         <Skills />
+        <Experience />
         <Education />
         <PersonalQualities />
 

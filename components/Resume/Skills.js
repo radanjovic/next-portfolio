@@ -9,7 +9,7 @@ export default function Skills() {
         </div>
         <div className="space-y-1 md:space-y-2">
             <h3>Frameworks:</h3>
-            <p className="main-text">- Next.js, React, Django, Express, Flask, jQuery, Bootstrap, TailwindCSS, Sass </p>
+            <p className="main-text">- Next.js, Node.js React, React Native, Express, Socket.io, Django, Flask, jQuery, Bootstrap, TailwindCSS, Sass </p>
         </div>
         <div className="space-y-1 md:space-y-2">
             <h3>Databases:</h3>
@@ -17,7 +17,7 @@ export default function Skills() {
         </div>
         <div className="space-y-1 md:space-y-2">
             <h3>Related Programming Technologies:</h3>
-            <p className="main-text">- REST API, GraphQL, Edge Networking + Serverless, Containers, Manual Testing, Operating Systems, Systemadministration, Networking, UI/UX Design Basics, IT Security, Wordpress, ... </p>
+            <p className="main-text">- REST API, GraphQL, Server-side Template Rendering, Edge Networking + Serverless, Containers, Manual Testing, Operating Systems, Systemadministration, Networking, UI/UX Design Basics, IT Security, Wordpress, ... </p>
         </div>
     </div>
 </section>
